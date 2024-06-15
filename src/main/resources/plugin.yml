@@ -1,0 +1,8 @@
+name: DeathLogPlugin
+version: 1.0
+main: com.example.deathlogplugin.DeathLogPlugin
+api-version: 1.16
+commands:
+  deathlog:
+    description: Show a log of the player's last 12 deaths.
+    usage: /deathlog
