@@ -1,5 +1,7 @@
 # DeathLogPlugin
 
+## Support : 1.16.5 -> 1.20.6
+
 DeathLogPlugin is a Minecraft plugin to record information when a player dies in the game.
 
 ## Build Instructions
