@@ -32,6 +32,7 @@ DeathRecord{
     causeOfDeath='arrow from skeleton'
 }
 ```
-__ Use the command __ /deathlog to display these records.
+
+> Use the command /deathlog to display these records.
 
 Plugin developed by Nguyen Minh Tuan
