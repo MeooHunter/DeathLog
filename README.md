@@ -38,3 +38,5 @@ DeathRecord{
 > Use the command /deathlog to display these records.
 
 Plugin developed by Nguyen Minh Tuan
+
+![image](https://github.com/MeooHunter/DeathLog/assets/86753815/376665f7-3755-4ee2-bdc3-e501297cfc0d)
