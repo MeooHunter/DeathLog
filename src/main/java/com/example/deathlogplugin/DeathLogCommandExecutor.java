@@ -25,16 +25,16 @@ public class DeathLogCommandExecutor implements CommandExecutor {
             LinkedList<DeathRecord> deathRecords = plugin.getDeathLogs(playerUUID);
             
             if (deathRecords.isEmpty()) {
-                player.sendMessage(ChatColor.RED + "Bạn chưa có nhật ký tử vong nào.");
+                player.sendMessage(ChatColor.RED + "You haven't died yet");
                 return true;
             }
             
-            player.sendMessage(ChatColor.GOLD + "---- " + ChatColor.DARK_RED + "Nhật ký Tử vong của bạn" + ChatColor.GOLD + " ----");
+            player.sendMessage(ChatColor.GOLD + "---- " + ChatColor.DARK_RED + "Your Death Diary" + ChatColor.GOLD + " ----");
 
             for (DeathRecord record : deathRecords) {
-                String message = ChatColor.YELLOW + "Ngày: " + ChatColor.GREEN + record.getDate() + "\n" +
-                                 ChatColor.YELLOW + "Nguyên nhân: " + ChatColor.GREEN + record.getCause() + "\n" +
-                                 ChatColor.YELLOW + "Vị trí: " + ChatColor.GREEN + "X: " + record.getLocation().getBlockX() + 
+                String message = ChatColor.YELLOW + "Day: " + ChatColor.GREEN + record.getDate() + "\n" +
+                                 ChatColor.YELLOW + "Reason: " + ChatColor.GREEN + record.getCause() + "\n" +
+                                 ChatColor.YELLOW + "Location: " + ChatColor.GREEN + "X: " + record.getLocation().getBlockX() + 
                                  ", Y: " + record.getLocation().getBlockY() + 
                                  ", Z: " + record.getLocation().getBlockZ();
                 player.sendMessage(message);
